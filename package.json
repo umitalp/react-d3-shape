@@ -14,7 +14,7 @@
   "author": "ElixirDoc team",
   "license": "Apache 2.0",
   "devDependencies": {
-    "babel-cli": "^6.6.4",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.5.2",
     "babel-eslint": "^3.1.9",
     "babel-loader": "^6.2.3",
@@ -48,6 +48,7 @@
     "d3": "^3.5.6",
     "d3-scale": "^0.6.4",
     "d3-shape": "^0.5.1",
+    "prop-types": "^15.6.1",
     "react-d3-core": "^1.2.8"
   }
 }
