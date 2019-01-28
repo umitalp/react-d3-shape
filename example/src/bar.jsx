@@ -4,10 +4,10 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Chart = require('../../src').Chart;
 var Bar = require('../../src').Bar;
-var Xaxis = require('react-d3-core').Xaxis;
-var Yaxis = require('react-d3-core').Yaxis;
-var Xgrid = require('react-d3-core').Xgrid;
-var Ygrid = require('react-d3-core').Ygrid;
+var Xaxis = require('mhs-d3-core').Xaxis;
+var Yaxis = require('mhs-d3-core').Yaxis;
+var Xgrid = require('mhs-d3-core').Xgrid;
+var Ygrid = require('mhs-d3-core').Ygrid;
 
 var generalChartData = require('dsv?delimiter=\t!./data/letter.tsv')
 

@@ -4,8 +4,8 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Chart = require('../../src').Chart;
 var AreaStack = require('../../src').AreaStack;
-var Xaxis = require('react-d3-core').Xaxis;
-var Yaxis = require('react-d3-core').Yaxis;
+var Xaxis = require('mhs-d3-core').Xaxis;
+var Yaxis = require('mhs-d3-core').Yaxis;
 
 var generalChartData = require('dsv?delimiter=\t!./data/browser.tsv')
 var formatPercent = d3.format(".0%");

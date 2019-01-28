@@ -10,7 +10,7 @@ import {
 	Ygrid,
 	Xaxis,
 	Yaxis
-} from 'react-d3-core';
+} from 'mhs-d3-core';
 
 import Chart from '../chart';
 import StraightLine from '../utils/straightLine';

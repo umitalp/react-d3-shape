@@ -11,7 +11,7 @@ import CommonProps from '../commonProps';
 
 import {
 	scale
-} from 'react-d3-core';
+} from 'mhs-d3-core';
 
 import {
 	default as ReactDOM

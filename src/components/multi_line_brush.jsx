@@ -13,7 +13,7 @@ import {
 	Xaxis,
 	Yaxis,
 	Legend
-} from 'react-d3-core';
+} from 'mhs-d3-core';
 
 import Line from './line';
 import Chart from '../chart';

@@ -4,8 +4,8 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Chart = require('../../src').Chart;
 var BarStack = require('../../src').BarStack;
-var Xaxis = require('react-d3-core').Xaxis;
-var Yaxis = require('react-d3-core').Yaxis;
+var Xaxis = require('mhs-d3-core').Xaxis;
+var Yaxis = require('mhs-d3-core').Yaxis;
 
 var generalChartData = require('dsv?delimiter=,!./data/age.csv')
 

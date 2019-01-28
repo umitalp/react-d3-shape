@@ -11,7 +11,7 @@ import {
   scale,
   xDomainCount,
   yDomainCount
-} from 'react-d3-core';
+} from 'mhs-d3-core';
 
 import CommonProps from './commonProps';
 
@@ -21,7 +21,7 @@ export default class ChartSvg extends Component {
   }
 
   static defaultProps = {
-    svgClassName: 'react-d3-core__container_svg',
+    svgClassName: 'mhs-d3-core__container_svg',
     ...CommonProps
   }
 
