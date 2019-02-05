@@ -1,6 +1,6 @@
 {
   "name": "mhs-d3-shape",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "react shape component with the changes for React v15.5+",
   "main": "./lib/index.js",
   "directories": {
@@ -10,6 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./lib && BABEL_ENV=production ./node_modules/.bin/babel ./src --out-dir ./lib",
     "prod": "BABEL_ENV=production NODE_ENV=0 webpack --config webpack.prod.config.js && BABEL_ENV=production NODE_ENV=1 webpack --config webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/umitalp/react-d3-shape.git"
   },
   "author": "ElixirDoc team and mhs",
   "license": "Apache 2.0",
@@ -40,15 +44,13 @@
     "webpack-dev-server": "^1.11.0",
     "webpack-hot-middleware": "^2.9.0"
   },
-  "peerDependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
-  },
   "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
     "d3": "^3.5.6",
     "d3-scale": "^0.6.4",
     "d3-shape": "^0.5.1",
     "prop-types": "^15.6.1",
-    "mhs-d3-core": "1.0.1"
+    "mhs-d3-core": "1.0.2"
   }
 }
