@@ -1,6 +1,6 @@
 {
   "name": "mhs-d3-shape",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "react shape component with the changes for React v15.5+",
   "main": "./lib/index.js",
   "directories": {
